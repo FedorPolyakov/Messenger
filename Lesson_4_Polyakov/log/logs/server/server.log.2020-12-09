@@ -1,0 +1,26 @@
+2020-12-09 15:11:13,769 DEBUG      server.py  Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-09 15:11:13,770 INFO       server.py  Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-09 15:11:14,640 INFO       server.py  Установлено соедиение с адресом ('127.0.0.1', 51353)
+2020-12-09 15:11:14,641 DEBUG      server.py  Получено сообщение от клиента: {'action': 'presence', 'time': 1607515874.6400077, 'user': {'username': 'Guest'}}
+2020-12-09 15:11:14,642 DEBUG      server.py  Разбор сообщения от клиента : {'action': 'presence', 'time': 1607515874.6400077, 'user': {'username': 'Guest'}}
+2020-12-09 15:11:14,643 DEBUG      server.py  Была вызвана функция proccess_agent с параметрами ({'action': 'presence', 'time': 1607515874.6400077, 'user': {'username': 'Guest'}},), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-09 15:11:14,643 DEBUG      server.py  Сформирован ответ клиенту: {'response': 200}
+2020-12-09 15:11:14,643 DEBUG      server.py  Соедиение с клиентом ('127.0.0.1', 51353) закрыто
+2020-12-09 15:12:09,034 DEBUG      test_client.py Была вызвана функция create_msg с параметрами (), {}. Вызов из модуля client. Вызов из функции setUp
+2020-12-09 15:12:09,037 DEBUG      test_client.py Была вызвана функция create_msg с параметрами (), {}. Вызов из модуля client. Вызов из функции setUp
+2020-12-09 15:12:09,041 DEBUG      test_client.py Была вызвана функция parsing_ans с параметрами ({'response': 200},), {}. Вызов из модуля client. Вызов из функции test_parsing_ans_ok_response
+2020-12-09 15:12:09,044 DEBUG      test_client.py Была вызвана функция create_msg с параметрами (), {}. Вызов из модуля client. Вызов из функции setUp
+2020-12-09 15:12:09,049 DEBUG      test_client.py Была вызвана функция create_msg с параметрами (), {}. Вызов из модуля client. Вызов из функции setUp
+2020-12-09 15:12:09,052 DEBUG      test_client.py Была вызвана функция parsing_ans с параметрами ({'response': 400, 'error': 'Bad Request'},), {}. Вызов из модуля client. Вызов из функции test_parsing_ans_wrong_response
+2020-12-09 15:12:16,583 DEBUG      server.py  Разбор сообщения от клиента : {'action': 'wrong_action', 'time': '1.1', 'user': {'username': 'Guest'}}
+2020-12-09 15:12:16,666 DEBUG      test_server.py Была вызвана функция proccess_agent с параметрами ({'action': 'wrong_action', 'time': '1.1', 'user': {'username': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции test_error_action
+2020-12-09 15:12:16,666 DEBUG      server.py  Разбор сообщения от клиента : {'action': 'presence', 'time': '1.1', 'user': {'username': 'WrongGuest'}}
+2020-12-09 15:12:16,668 DEBUG      test_server.py Была вызвана функция proccess_agent с параметрами ({'action': 'presence', 'time': '1.1', 'user': {'username': 'WrongGuest'}},), {}. Вызов из модуля server. Вызов из функции test_error_username
+2020-12-09 15:12:16,668 DEBUG      server.py  Разбор сообщения от клиента : {'action': 'presence', 'time': '1.1', 'user': {'username': 'Guest'}}
+2020-12-09 15:12:16,671 DEBUG      test_server.py Была вызвана функция proccess_agent с параметрами ({'action': 'presence', 'time': '1.1', 'user': {'username': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции test_ok_proccess_agent
+2020-12-09 15:12:16,672 DEBUG      server.py  Разбор сообщения от клиента : {'time': '1.1', 'user': {'username': 'Guest'}}
+2020-12-09 15:12:16,675 DEBUG      test_server.py Была вызвана функция proccess_agent с параметрами ({'time': '1.1', 'user': {'username': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции test_without_action
+2020-12-09 15:12:16,676 DEBUG      server.py  Разбор сообщения от клиента : {'action': 'presence', 'user': {'username': 'Guest'}}
+2020-12-09 15:12:16,679 DEBUG      test_server.py Была вызвана функция proccess_agent с параметрами ({'action': 'presence', 'user': {'username': 'Guest'}},), {}. Вызов из модуля server. Вызов из функции test_without_time
+2020-12-09 15:12:16,680 DEBUG      server.py  Разбор сообщения от клиента : {'action': 'presence', 'time': '1.1'}
+2020-12-09 15:12:16,682 DEBUG      test_server.py Была вызвана функция proccess_agent с параметрами ({'action': 'presence', 'time': '1.1'},), {}. Вызов из модуля server. Вызов из функции test_without_user

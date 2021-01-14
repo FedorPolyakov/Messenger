@@ -1,0 +1,75 @@
+2020-12-21 21:34:40,341 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 21:34:40,342 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 21:34:40,344 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x0000026F50B69190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 21:34:59,147 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54775)
+2020-12-21 21:34:59,661 INFO       server_class.py Клиент ('127.0.0.1', 54775) отключился от сервера.
+2020-12-21 21:35:37,172 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 21:35:37,172 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 21:35:37,173 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x000001B0867C9190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 21:35:40,545 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54869)
+2020-12-21 21:35:41,047 INFO       server_class.py Клиент ('127.0.0.1', 54869) отключился от сервера.
+2020-12-21 21:36:17,536 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 21:39:59,150 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 21:39:59,150 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 21:40:19,889 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 21:40:19,889 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 21:40:24,987 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 55539)
+2020-12-21 21:40:25,500 INFO       server_class.py Клиент ('127.0.0.1', 55539) отключился от сервера.
+2020-12-21 21:42:35,380 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 21:42:35,380 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 21:42:38,658 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 55826)
+2020-12-21 21:42:39,161 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608576158.6579971, 'user': {'username': 'ccc'}}
+2020-12-21 21:42:53,428 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1608576172.995628, 'username': 'ccc'}
+2020-12-21 21:42:53,428 INFO       server_class.py Клиент ('127.0.0.1', 55826) отключился от сервера.
+2020-12-21 23:19:34,530 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 23:19:34,530 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 23:19:34,532 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x0000020D65CA9190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:19:50,027 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 23:19:50,027 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 23:19:50,028 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x00000201F5EB9190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:19:57,832 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 53760)
+2020-12-21 23:19:58,337 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608581997.8322778, 'user': {'username': 'Test'}}
+2020-12-21 23:19:58,339 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x00000201F5EB9190>, {'action': 'presence', 'time': 1608581997.8322778, 'user': {'username': 'Test'}}, <socket.socket fd=136, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53760)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:19:59,364 INFO       server_class.py Клиент ('127.0.0.1', 53760) отключился от сервера.
+2020-12-21 23:21:25,305 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 23:21:25,305 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 23:21:25,306 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x00000174BF699190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:21:31,184 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 53992)
+2020-12-21 23:21:31,684 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582091.184169, 'user': {'username': 'test'}}
+2020-12-21 23:21:31,686 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x00000174BF699190>, {'action': 'presence', 'time': 1608582091.184169, 'user': {'username': 'test'}}, <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53992)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:21:46,432 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1608582106.1136591, 'username': 'test'}
+2020-12-21 23:21:46,433 INFO       server_class.py Клиент ('127.0.0.1', 53992) отключился от сервера.
+2020-12-21 23:22:18,850 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 23:22:18,850 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 23:22:18,851 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x0000025C09FE9190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:19,354 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54091)
+2020-12-21 23:22:19,355 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54089)
+2020-12-21 23:22:19,355 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54090)
+2020-12-21 23:22:19,870 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582139.3536315, 'user': {'username': 'test_3'}}
+2020-12-21 23:22:19,873 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000025C09FE9190>, {'action': 'presence', 'time': 1608582139.3536315, 'user': {'username': 'test_3'}}, <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54091)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:19,874 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582139.3536315, 'user': {'username': 'test_2'}}
+2020-12-21 23:22:19,877 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000025C09FE9190>, {'action': 'presence', 'time': 1608582139.3536315, 'user': {'username': 'test_2'}}, <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54089)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:19,877 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582139.354507, 'user': {'username': 'test_1'}}
+2020-12-21 23:22:19,882 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000025C09FE9190>, {'action': 'presence', 'time': 1608582139.354507, 'user': {'username': 'test_1'}}, <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54090)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:33,143 DEBUG      server_class.py Была вызвана функция parse_args с параметрами (), {}. Вызов из модуля __main__. Вызов из функции main
+2020-12-21 23:22:33,143 INFO       server_class.py Запущен сервер, порт для подключений "7777", адрес с которого принимается сообщение "", если адрес не указан, принимаются сообщения с любых адресов.
+2020-12-21 23:22:33,144 DEBUG      server_class.py Была вызвана функция init_socket с параметрами (<__main__.Server object at 0x0000020D78AE9190>,), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:33,146 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54125)
+2020-12-21 23:22:33,146 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54126)
+2020-12-21 23:22:33,147 INFO       server_class.py Установлено соедиение с адресом ('127.0.0.1', 54127)
+2020-12-21 23:22:33,147 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582153.1466558, 'user': {'username': 'test_3'}}
+2020-12-21 23:22:33,147 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000020D78AE9190>, {'action': 'presence', 'time': 1608582153.1466558, 'user': {'username': 'test_3'}}, <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54125)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:33,661 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582153.1466558, 'user': {'username': 'test_1'}}
+2020-12-21 23:22:33,663 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000020D78AE9190>, {'action': 'presence', 'time': 1608582153.1466558, 'user': {'username': 'test_1'}}, <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54126)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:22:33,663 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1608582153.1466558, 'user': {'username': 'test_2'}}
+2020-12-21 23:22:33,665 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000020D78AE9190>, {'action': 'presence', 'time': 1608582153.1466558, 'user': {'username': 'test_2'}}, <socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54127)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:23:02,134 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'message', 'sender': 'test_2', 'to': 'test_1', 'time': 1608582181.8684921, 'message text': 'hello, its oop!'}
+2020-12-21 23:23:02,134 DEBUG      server_class.py Была вызвана функция process_agent с параметрами (<__main__.Server object at 0x0000020D78AE9190>, {'action': 'message', 'sender': 'test_2', 'to': 'test_1', 'time': 1608582181.8684921, 'message text': 'hello, its oop!'}, <socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54127)>), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:23:02,135 INFO       server_class.py Отпрвлено сообщение пользователю <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54126)> от пользователя <socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54127)>.
+2020-12-21 23:23:02,135 DEBUG      server_class.py Была вызвана функция process_p2p_message с параметрами (<__main__.Server object at 0x0000020D78AE9190>, {'action': 'message', 'sender': 'test_2', 'to': 'test_1', 'time': 1608582181.8684921, 'message text': 'hello, its oop!'}, [<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54125)>, <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54126)>, <socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54127)>]), {}. Вызов из модуля __main__. Вызов из функции main_func
+2020-12-21 23:23:33,229 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1608582212.9026513, 'username': 'test_2'}
+2020-12-21 23:23:33,230 INFO       server_class.py Клиент ('127.0.0.1', 54127) отключился от сервера.
+2020-12-21 23:23:39,320 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1608582218.8955424, 'username': 'test_1'}
+2020-12-21 23:23:39,320 INFO       server_class.py Клиент ('127.0.0.1', 54126) отключился от сервера.
+2020-12-21 23:23:42,378 DEBUG      server_class.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1608582222.142671, 'username': 'test_3'}
+2020-12-21 23:23:42,378 INFO       server_class.py Клиент ('127.0.0.1', 54125) отключился от сервера.
